@@ -1,1 +1,1 @@
-"use strict";console.log("'Allo 'Allo!");
+"use strict";$(document).ready(function(){$(".loadmore").click(function(){$(".targetme").toggleClass("hidden-article-box"),$(".line").toggleClass("addmeafter")})});
