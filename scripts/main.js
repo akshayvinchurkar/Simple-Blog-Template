@@ -1,1 +1,1 @@
-"use strict";$(document).ready(function(){$(".loadmore").click(function(){$(".targetme").toggleClass("hidden-article-box"),$(".line").toggleClass("addmeafter")})});
+"use strict";$(document).ready(function(){$(".loadmore").click(function(){$(".targetme").toggleClass("hidden-article-box"),$(".line").toggleClass("addmeafter")}),$(".portfolio-item").mouseover(function(){$(this).find(".project-name").css("marginTop","-48px")}).mouseleave(function(){$(this).find(".project-name").css("marginTop","-0px")})});
